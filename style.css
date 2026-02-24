@@ -478,11 +478,11 @@ body {
 
 .gallery {
     display: grid;
-    gap: 25px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1.5fr));
     padding: 10px;
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px; */
+    margin: 0;
 }
 
 .gallery img {
